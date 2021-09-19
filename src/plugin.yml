@@ -1,0 +1,6 @@
+name: WhitelistPlugin
+version: 0.1
+author: Tuce
+main: me.tuce.Whitelist.Main
+api-version: 1.17
+load: STARTUP
