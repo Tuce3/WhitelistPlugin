@@ -1,5 +1,6 @@
 package me.tuce.Whitelist;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -19,7 +20,9 @@ public class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         createCustomConfig();
 
-        new PlayerJoin(this);
+        Bukkit.setWhitelist(true);
+
+        new TurnOff(this);
     }
 
     public FileConfiguration getCustomConfig() {return this.customConfig;}

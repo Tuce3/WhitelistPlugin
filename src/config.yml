@@ -1,6 +1,1 @@
 seconds_to_wait: 30
-
-message_for_kicked_players: Please wait a few minutes for server to turn on properly!
-
-whitelist:
-  - SomeRandomPerson

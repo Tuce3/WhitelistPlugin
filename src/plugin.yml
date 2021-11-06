@@ -1,5 +1,5 @@
 name: WhitelistPlugin
-version: 0.1
+version: 0.2
 author: Tuce
 main: me.tuce.Whitelist.Main
 api-version: 1.17
